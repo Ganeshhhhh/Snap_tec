@@ -51,6 +51,6 @@ This will launch a local web application that allows you to upload images and de
 Enjoy using SnapTEC for various applications, from tracking attendance to having fun with face recognition!
 
 ## Screenshots
-![Snaptec](https://github.com/user-attachments/assets/6ec4dd02-d95a-43f6-a59d-584a12b7090d)
+![faceee](https://github.com/user-attachments/assets/c3990bc7-331c-4036-b9a5-da98faa682f1)
 
 Happy snapping! 📸👤
