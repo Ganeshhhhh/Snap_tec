@@ -9,7 +9,7 @@ SnapTEC is a simple yet powerful application that allows you to capture images a
 First, clone the SnapTEC repository into your local machine:
 
 ```bash
-git clone <git clone https://github.com/Ganeshhhhh/Snap_tec.git>
+git clone https://github.com/Ganeshhhhh/Snap_tec.git
 ```
 
 ### Step 2: Prepare Training Images
