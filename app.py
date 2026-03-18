@@ -51,9 +51,13 @@ if uploaded_image is not None:
     image_data = uploaded_image.read()
     pil_image = Image.open(io.BytesIO(image_data))
 
-    image = cv2.cvtColor(np.array(pil_image), cv2.COLOR_BGR2RGB)
+    image = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
 
 if st.button("Show Attendance"):
+    if uploaded_image is None:
+        st.error("Please upload an image first.")
+        st.stop()
+
     facesCurFrame = face_recognition.face_locations(image, model='cnn')
     encodesCurFrame = face_recognition.face_encodings(image, facesCurFrame)
 
